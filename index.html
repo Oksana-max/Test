@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тестовое задание</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <div class="wrapper __container">
+      <main class="page">
+        <div class="page__goods goods">
+          <!-- tabs -->
+          <div class="goods__tabs tabs">
+            <nav class="goods__nav">
+              <div class="goods__nav__item">
+                <a href="#content-tab1" class="tabs__item _active">Популярные товары</a>
+              </div>
+              <div class="goods__nav__item">
+                <a href="#content-tab2" class="tabs__item">Недавно купили</a>
+              </div>
+              <div class="goods__nav__item">
+                <a href="#content-tab3" class="tabs__item">Вас может заинтересовать</a>
+              </div>
+            </nav>
+
+            <!-- MainSlider -->
+            <div class="goods__body">
+              <div id="content-tab1" class="goods__body__slider mainSlider swiper _active">
+                <div class="swiper-wrapper">
+                  <!-- Main-Slides -->
+                  <!-- Main-slide1 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/no-photo.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Кашпо для цветов керамическое СИМПЛГРЕЙ</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide2 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Тарелка керамическая ручной работы ⌀ 12</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide3 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Умные часы SMARTWATCH XM 109 черный</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide4 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/no-photo.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"><img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+              </div>
+              <div id="content-tab2" class="goods__body__slider mainSlider swiper">
+                <div class="swiper-wrapper">
+                  <!-- Main-Slides -->
+                  <!-- Main-slide1 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/no-photo.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/no-photo.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Кашпо для цветов керамическое СИМПЛГРЕЙ</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide2 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Тарелка керамическая ручной работы ⌀ 12</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide3 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Умные часы SMARTWATCH XM 109 черный</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide4 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/no-photo.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="photo" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="photo" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="like" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="comparison" /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+              </div>
+              <div id="content-tab3" class="goods__body__slider mainSlider swiper">
+                <div class="swiper-wrapper">
+                  <!-- Main-Slides -->
+                  <!-- Main-slide1 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/no photo.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Кашпо для цветов керамическое СИМПЛГРЕЙ</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide2 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Тарелка керамическая ручной работы ⌀ 12</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide3 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Умные часы SMARTWATCH XM 109 черный</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Main-slide4 -->
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide mainSlider__item item tabs__block">
+                    <div class="swiper slider-photo">
+                      <div class="swiper-wrapper">
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/1.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/2.png" alt="" />
+                        </a>
+                        <a href="#" class="swiper-slide slider-photo__img">
+                          <img src="./img/3.png" alt="" />
+                        </a>
+                        ...
+                      </div>
+                      <div class="swiper-pagination slider-photo-pagination">
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                        <span class="slider-photo__pagination swiper-pagination-bullet"></span>
+                      </div>
+                    </div>
+                    <a href="#" class="item__title">Золотое кольцо МАЛИКА с аметистом и фианитами</a>
+                    <div class="item__price">
+                      <span class="item__actual-price">600 ₽</span>
+                      <span class="item__old-price">810 ₽</span>
+                    </div>
+                    <div class="item__action">
+                      <div class="item__count count">
+                        <div class="count__control" data-action="minus">-</div>
+                        <div class="countr__current" data-counter>1</div>
+                        <div class="count__control" data-action="plus">+</div>
+                      </div>
+                      <button class="item__btn-cart">В корзину</button>
+                      <div class="item__action_photo">
+                        <a href="" class="item__action__like"> <img src="./img/like.svg" alt="" /></a>
+                        <a href="" class="item__action__comparison"><img src="./img/comparison.svg" alt="" /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- If we need navigation buttons -->
+              </div>
+
+              <img src="./img/arrow-left.svg" class="arrow-left" alt="arrow-left" />
+              <img src="./img/arrow-right.svg" class="arrow-right" alt="arrow-right" />
+              <!--// MainSlider -->
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+  <script src="./js/slider.js"></script>
+  <script src="./js/tabs.js"></script>
+  <script src="./js/counter.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+</html>
